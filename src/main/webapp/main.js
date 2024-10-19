@@ -55,9 +55,9 @@ mainBtn.addEventListener('click', function(e) {
 				'Content-Type': 'application/json'
 			},
 			body: JSON.stringify({
-				x: xVal,
-				y: yVal,
-				r: rVal
+				"x": xVal,
+				"y": yVal,
+				"r": rVal
 			})
 		}).then(response => response.json()).then(data => {
 			console.log("SUCCESS! ", data);

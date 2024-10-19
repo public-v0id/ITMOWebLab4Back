@@ -9,7 +9,7 @@ public class Parameters {
     private double r;
 
     public Parameters(double x, double y, double r) throws ParametersException {
-        if (y < 2 || y > 2 || r < 1 || r > 3) {
+        if (y > 2 || y < -2 || r < 1 || r > 3) {
             throw new ParametersException("Invalid Parameters! Couldn't create object");
         }
         this.x = x;

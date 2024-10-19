@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Лабораторная работа 1 Игнатов П.</title>
+		<title>Лабораторная работа 2 Игнатов П.</title>
 		<style>
 			html, body {
 				height: 100%
@@ -54,7 +54,7 @@
 		<table>
 			<tr>
 				<td colspan="3">
-					<h1 class = "header">Игнатов Петр Дмитриевич, P3216, вариант 408693</h1>
+					<h1 class = "header">Игнатов Петр Дмитриевич, P3216, вариант 408864</h1>
 				</td>
 			</tr>
 			<tr class="inp">
