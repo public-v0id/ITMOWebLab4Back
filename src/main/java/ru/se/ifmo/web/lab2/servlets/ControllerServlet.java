@@ -9,11 +9,18 @@ import javax.servlet.http.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.time.Instant;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.*;
 
 public class ControllerServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+        ServletContext context = getServletContext();
+        List<List<String>> resList = (List<List<String>>)context.getAttribute("resList");
+        if (resList == null) {
+            resList = new ArrayList<List<String>>();
+        }
         RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
         dispatcher.forward(req, resp);
     }

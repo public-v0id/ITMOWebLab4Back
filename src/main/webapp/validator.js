@@ -4,14 +4,14 @@ export default class validator {
 		this.msg = msg
 	}
 	validate(xVal, yVal, rVal) {
-		let yFlVal = parseFloat(yVal);
+		let xFlVal = parseFloat(xVal);
 		let rFlVal = parseFloat(rVal);
-		if ((isNaN(xVal)) || (xVal.trim() == "") || parseFloat(xVal) < -3 || parseFloat(xVal) > 5) {
-			alert("Ошибка! Введено неправильное значение X!");
+		if ((isNaN(yVal)) || (yVal.trim() == "") || parseFloat(yVal) < -3 || parseFloat(yVal) > 5) {
+			alert("Ошибка! Введено неправильное значение Y!");
 			this.respCode = 1;
 		}
-		else if (![-2, -1.5, -1, -0.5, 0, 0.5, 1, 1.5, 2].includes(yFlVal)) {
-			alert("Ошибка! Введено неправильное значение Y!");
+		else if (![-5, -4, -3, -2, -1, 0, 1, 2, 3].includes(xFlVal)) {
+			alert("Ошибка! Введено неправильное значение X!");
 			this.respCode = 1;
 		}
 		else if (![1, 1.5, 2, 2.5, 3].includes(rFlVal)) {

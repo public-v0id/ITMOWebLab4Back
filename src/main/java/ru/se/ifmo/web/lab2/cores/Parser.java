@@ -116,12 +116,20 @@ public class Parser {
         }
     }
 
-    public static String genJSONresp(boolean res, double applTime) {
+    public static String genJSONresp(boolean res, long applTime, String time) {
         Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
         logger.log(Level.INFO, "Started generating");
-        String json = String.format(RESULT_JSON, res, "\"" + Double.toString(applTime) + "\"", "\"" + Instant.now().toString() + "\"");
+        String json = String.format(RESULT_JSON, res, "\"" + Long.toString(applTime) + "\"", "\"" + time + "\"");
         logger.log(Level.INFO, json);
         json = json.trim();
         return json;
+    }
+
+    public static String doubleToString(double x) {
+        String res = Double.toString(x);
+        if (res.endsWith(".0")) {
+            res = res.substring(0, res.length()-2);
+        }
+        return res;
     }
 }

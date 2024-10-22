@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2474823d-dfb1-4d71-8d8c-4c279360428f" name="Changes" comment="Implemented basic servlet to previous lab">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/exceptions/JSONConvException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/second.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/classes/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/classes/Parameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/AreaCheckServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/ControllerServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/validator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
