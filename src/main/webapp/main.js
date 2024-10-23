@@ -7,6 +7,34 @@ const context = graph.getContext("2d");
 const margin = 15;
 let hasUserInputR = false;
 
+let savedData = [];
+
+window.onload = function () {
+    drawGraph(3);
+
+    savedData = loadData();
+    let savedLen = savedData.length;
+    console.log("Length " + savedLen);
+    for (let i = 0; i < savedLen; ++i) {
+        let xVal = savedData[i].x;
+        let yVal = savedData[i].y;
+        let rVal = savedData[i].r;
+        let res = savedData[i].res;
+        console.log(xVal + " " + yVal + " " + rVal + " " + res)
+        drawPoint(xVal, yVal, rVal, res);
+    }
+
+}
+
+const saveData = (points) => {
+	window.localStorage.setItem('Points', JSON.stringify(points));
+};
+
+const loadData = () => {
+	const savedData = window.localStorage.getItem('Points');
+	return savedData ? JSON.parse(savedData) : [];
+};
+
 function drawPoint(x, y, r, hit) {
     let xVal = parseFloat(x)/parseFloat(r);
     let yVal = parseFloat(y)/parseFloat(r);
@@ -35,6 +63,7 @@ function drawAxis(context, fromX, fromY, toX, toY) {
 let grLeft = graph.offsetLeft + graph.clientLeft;
 let grTop = graph.offsetTop + graph.clientTop;
 console.log(grLeft + " " + grTop);
+
 graph.addEventListener('click', function() {
     let clickX = event.clientX - graph.getBoundingClientRect().left;
     let clickY = event.clientY - graph.getBoundingClientRect().top;
@@ -84,6 +113,8 @@ graph.addEventListener('click', function() {
     			newRow.appendChild(tservtime);
     			tbody.appendChild(newRow);
     			drawPoint(xVal, yVal, rVal, data.res);
+    			savedData.push({ x: xVal, y: yVal, r: rVal, res: data.res});
+                saveData(savedData);
     		}).catch((error) => {
     			console.error("ERROR! ", error);
     		});
@@ -151,10 +182,6 @@ function drawGraph(R) {
         context.lineTo(width / 2 + tickLength / 2, yTickPosition);
         context.stroke();
     }
-}
-
-window.onload = function () {
-    drawGraph(3);
 }
 
 const mainBtn = document.querySelector('button');
