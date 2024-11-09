@@ -1,8 +1,9 @@
 package ru.se.ifmo.web.lab2.servlets;
 
 import org.json.JSONObject;
+import ru.se.ifmo.web.lab2.classes.DTO;
 import ru.se.ifmo.web.lab2.cores.Parser;
-import ru.se.ifmo.web.lab2.exceptions.ParametersException;
+import ru.se.ifmo.web.lab2.exceptions.*;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -17,9 +18,9 @@ public class ControllerServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         ServletContext context = getServletContext();
-        List<List<String>> resList = (List<List<String>>)context.getAttribute("resList");
+        List<DTO> resList = (List<DTO>)context.getAttribute("resList");
         if (resList == null) {
-            resList = new ArrayList<List<String>>();
+            resList = new ArrayList<DTO>();
         }
         RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
         dispatcher.forward(req, resp);

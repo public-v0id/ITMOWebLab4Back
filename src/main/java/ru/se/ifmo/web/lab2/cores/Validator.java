@@ -9,7 +9,7 @@ public class Validator {
     }
 
     private static boolean checkRect(Parameters params) {
-        return (params.getY() >= -1*params.getR()/2.0) && (params.getY() <= 0) && (params.getX() >= 0) && (params.getX() <= params.getR());
+        return (params.getY() >= -1 * params.getR() / 2.0) && (params.getY() <= 0) && (params.getX() >= 0) && (params.getX() <= params.getR());
     }
 
     private static boolean checkTriangle(Parameters params) {

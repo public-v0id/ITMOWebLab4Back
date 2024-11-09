@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2474823d-dfb1-4d71-8d8c-4c279360428f" name="Changes" comment="Added pressed points saving">
+    <list default="true" id="2474823d-dfb1-4d71-8d8c-4c279360428f" name="Changes" comment="Added welcomefile">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/classes/DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/exceptions/WrongParametersException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/filters/AgentFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/classes/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/classes/Parameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/exceptions/ParametersException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/AreaCheckServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/ControllerServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/validator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729711961733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added welcomefile">
+      <created>1729798095830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729798095831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +140,7 @@
     <MESSAGE value="Implemented basic servlet to previous lab" />
     <MESSAGE value="Finished (???)" />
     <MESSAGE value="Added pressed points saving" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pressed points saving" />
+    <MESSAGE value="Added welcomefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added welcomefile" />
   </component>
 </project>

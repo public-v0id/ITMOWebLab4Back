@@ -36,7 +36,7 @@
 			}
 			#btn {
 				width: 75%;
-				height: 75%;
+                height: 200px;
 			}
 			.center {
 				display:block;
@@ -66,23 +66,23 @@
                 		<h3 class = "header">X:</h3>
                 		<p>
                     		<div class = "header">
-                    			<input type="radio" name="x" id="-5x" value="-5" checked="checked"> </input>
+                    			<input type="checkbox" name="x" id="-5x" value="-5" checked="checked"> </input>
                     			<label for="-5x">-5</label>
-                    			<input type="radio" name="x" id="-4y" value="-4"></input>
+                    			<input type="checkbox" name="x" id="-4y" value="-4"></input>
                 			    <label for="-4x">-4</label>
-                		    	<input type="radio" name="x" id="-3x" value="-3"></input>
+                		    	<input type="checkbox" name="x" id="-3x" value="-3"></input>
                 	    		<label for="-3x">-3</label>
-                    			<input type="radio" name="x" id="-2x" value="-2"></input>
+                    			<input type="checkbox" name="x" id="-2x" value="-2"></input>
                     			<label for="-2x">-2</label>
-                    			<input type="radio" name="x" id="-1x" value="-1"></input>
+                    			<input type="checkbox" name="x" id="-1x" value="-1"></input>
                     			<label for="-1x">-1</label>
-                			    <input type="radio" name="x" id="0x" value="0"></input>
+                			    <input type="checkbox" name="x" id="0x" value="0"></input>
                 		    	<label for="0x">0</label>
-                	        	<input type="radio" name="x" id="1x" value="1"></input>
+                	        	<input type="checkbox" name="x" id="1x" value="1"></input>
                     			<label for="1x">1</label>
-   			    				<input type="radio" name="x" id="2x" value="2"></input>
+   			    				<input type="checkbox" name="x" id="2x" value="2"></input>
    		    					<label for="2x">2</label>
-                    			<input type="radio" name="x" id="3x" value="3"></input>
+                    			<input type="checkbox" name="x" id="3x" value="3"></input>
                     			<label for="3x">3</label>
                 		    </div>
             			</p>

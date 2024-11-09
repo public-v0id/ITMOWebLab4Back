@@ -188,50 +188,57 @@ const mainBtn = document.querySelector('button');
 mainBtn.addEventListener('click', function(e) {
 	e.preventDefault();
 	console.log("button pressed!");
-	const xVal = document.querySelector('input[name="x"]:checked').value;
-	const yVal = document.querySelector('#yInp').value;
-	const rVal = document.getElementById("r").value;
-	let val = new validator();
-	val.validate(xVal, yVal, rVal);
-	if (val.getRespCode() == 0) {
-		const url = new URL('controller', window.location.href);
-		fetch(url.href, {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json'
-			},
-			body: JSON.stringify({
-				"x": xVal,
-				"y": yVal,
-				"r": rVal,
-				"agent": navigator.userAgent
-			})
-		}).then(response => response.json()).then(data => {
-			console.log("SUCCESS! ", data);
-			const tbody = document.querySelector('#prevData');
-			const newRow = document.createElement('tr');
-			const tx = document.createElement('td');
-			const ty = document.createElement('td');
-			const tr = document.createElement('td');
-			const tres = document.createElement('td');
-			const textime = document.createElement('td');
-			const tservtime = document.createElement('td');
-			tx.textContent = xVal;
-			ty.textContent = yVal;
-			tr.textContent = rVal;
-			tres.textContent = data.res;
-			textime.textContent = data.exTime;
-			let localDate = new Date(data.servTime);
-			tservtime.textContent = localDate.toLocaleTimeString();
-			newRow.appendChild(tx);
-			newRow.appendChild(ty);
-			newRow.appendChild(tr);
-			newRow.appendChild(tres);
-			newRow.appendChild(textime);
-			newRow.appendChild(tservtime);
-			tbody.appendChild(newRow);
-		}).catch((error) => {
-			console.error("ERROR! ", error);
-		});
+	const xCh = document.querySelectorAll('input[name="x"]:checked');
+	console.log(xCh.length);
+	if (xCh == null || xCh.length != 1) {
+	    alert("Ошибка! Выбрано больше 1 или 0 вариантов значения X!");
+	}
+	else {
+	    const xVal = xCh[0].value;
+        const yVal = document.querySelector('#yInp').value;
+        const rVal = document.getElementById("r").value;
+        let val = new validator();
+        val.validate(xVal, yVal, rVal);
+        if (val.getRespCode() == 0) {
+            const url = new URL('controller', window.location.href);
+            fetch(url.href, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    "x": xVal,
+                    "y": yVal,
+                    "r": rVal,
+                    "agent": navigator.userAgent
+                })
+            }).then(response => response.json()).then(data => {
+                console.log("SUCCESS! ", data);
+                const tbody = document.querySelector('#prevData');
+                const newRow = document.createElement('tr');
+                const tx = document.createElement('td');
+                const ty = document.createElement('td');
+                const tr = document.createElement('td');
+                const tres = document.createElement('td');
+                const textime = document.createElement('td');
+                const tservtime = document.createElement('td');
+                tx.textContent = xVal;
+                ty.textContent = yVal;
+                tr.textContent = rVal;
+                tres.textContent = data.res;
+                textime.textContent = data.exTime;
+                let localDate = new Date(data.servTime);
+                tservtime.textContent = localDate.toLocaleTimeString();
+                newRow.appendChild(tx);
+                newRow.appendChild(ty);
+                newRow.appendChild(tr);
+                newRow.appendChild(tres);
+                newRow.appendChild(textime);
+                newRow.appendChild(tservtime);
+                tbody.appendChild(newRow);
+            }).catch((error) => {
+                console.error("ERROR! ", error);
+            });
+        }
 	}
 });
