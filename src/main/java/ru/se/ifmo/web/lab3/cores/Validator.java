@@ -1,7 +1,5 @@
 package ru.se.ifmo.web.lab3.cores;
 
-import ru.se.ifmo.web.lab3.classes.*;
-
 public class Validator {
     public static boolean check(double x, double y, double r) {
         return checkRect(x, y, r) || checkTriangle(x, y, r) || checkCircle(x, y, r);

@@ -4,32 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2474823d-dfb1-4d71-8d8c-4c279360428f" name="Changes" comment="Added welcomefile">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/beans/PointBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/beans/ValidatorBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/cores/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/cores/NavigationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.xhtml" afterDir="false" />
+    <list default="true" id="2474823d-dfb1-4d71-8d8c-4c279360428f" name="Changes" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/classes/DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/data/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/classes/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/classes/Parameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/cores/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/cores/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/exceptions/JSONConvException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/exceptions/JSONConvException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/exceptions/WrongParametersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/exceptions/WrongParametersException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/filters/AgentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/filters/AgentFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/AreaCheckServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab2/servlets/ControllerServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/second.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/classes/Parameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/cores/NavigationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/cores/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/cores/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/exceptions/JSONConvException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/exceptions/WrongParametersException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/filters/AgentFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +144,7 @@
     <MESSAGE value="Finished (???)" />
     <MESSAGE value="Added pressed points saving" />
     <MESSAGE value="Added welcomefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added welcomefile" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
