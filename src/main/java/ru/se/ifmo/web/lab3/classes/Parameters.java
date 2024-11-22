@@ -1,7 +1,7 @@
-package ru.se.ifmo.web.lab2.classes;
+package ru.se.ifmo.web.lab3.classes;
 
 import java.util.logging.*;
-import ru.se.ifmo.web.lab2.exceptions.*;
+import ru.se.ifmo.web.lab3.exceptions.*;
 
 public class Parameters {
     private double x;

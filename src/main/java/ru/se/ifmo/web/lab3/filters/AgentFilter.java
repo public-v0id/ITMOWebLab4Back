@@ -1,11 +1,9 @@
-package ru.se.ifmo.web.lab2.filters;
+package ru.se.ifmo.web.lab3.filters;
 
 import org.json.JSONObject;
-import ru.se.ifmo.web.lab2.cores.Parser;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletRequestWrapper;
 import java.io.*;
 import java.util.*;
 import java.util.logging.Level;

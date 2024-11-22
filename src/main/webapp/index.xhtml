@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <meta content="text/html; charset=utf-8"></meta>
+    <title>Лабораторная работа 3 Игнатов П.</title>
+    <style type="text/css">
+				html, body {
+					height: 100%
+				}
+				body{
+					background-image: url('http://grob-hroniki.org/img/other/original/1989_rpe/rpe_01.jpg');
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+					background-position: center;
+					background-size: cover;
+					font-size: 16px;
+				}
+				table {
+					width: 100%;
+					border: 1%;
+					height: 100%;
+				}
+				tr {
+					background-color: #FFFFFF00;
+				}
+				.inp {
+					background-color: #C0C0C088;
+				}
+				td {
+					padding: 1%;
+				}
+				.expandable {
+					width: auto;
+				}
+				#btn {
+					width: 75%;
+					height: 200px;
+				}
+				.center {
+					display:block;
+					margin: 0 auto;
+				}
+				#prevData {
+					height: 60%;
+				}
+				.prevDataText {
+					font-size: 10px;
+				}
+				.header {
+					text-align: center;
+				}
+			</style>
+</h:head>
+<h:body>
+    <h1 class = "header">Игнатов Петр Дмитриевич, P3216, вариант 4562</h1>
+    <h:panelGroup>
+        <h:outputText>TEST</h:outputText>
+        <h:outputText id="date" value="DATE"/>
+        <h:outputText id="time" value="TIME"/>
+    </h:panelGroup>
+    <h:form>
+        <h:link outcome = "goToMain" value = "Перейти на главную страницу" />
+    </h:form>
+    <h:outputScript library = "js" name="index.js"/>
+</h:body>
+</html>
