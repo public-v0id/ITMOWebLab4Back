@@ -4,7 +4,6 @@ import jakarta.ejb.Stateless;
 import java.io.Serializable;
 import static java.lang.Math.*;
 
-@Stateless
 public class Point implements Serializable {
     private double x;
     private double y;

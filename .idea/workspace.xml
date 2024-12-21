@@ -5,40 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2474823d-dfb1-4d71-8d8c-4c279360428f" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/Results.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/Authentificator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/PointChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/dao/ResultsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/exceptions/UnknownLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/exceptions/UserExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/exceptions/WrongCoordinatesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/exceptions/WrongPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db-credentials.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/TokenUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/beans/PointBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/beans/ValidatorBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/cores/HibernateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/cores/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab3/data/Results.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729798095831</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First commit">
+      <created>1734737467502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734737467503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
